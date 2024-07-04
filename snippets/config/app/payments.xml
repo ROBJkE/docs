@@ -21,7 +21,7 @@
         </payment-method>
 
         <payment-method>
-            <!-- The identifier of the payment method should not change. Otherwise a separate method is created. -->
+            <!-- The identifier of the payment method should not change. Otherwise, a separate method is created. -->
             <identifier>synchronousPayment</identifier>
             <name>Synchronous payment</name>
             <name lang="de-DE">Synchrone Zahlung</name>
@@ -32,7 +32,7 @@
         </payment-method>
 
         <payment-method>
-            <!-- The identifier of the payment method should not change. Otherwise a separate method is created. -->
+            <!-- The identifier of the payment method should not change. Otherwise, a separate method is created. -->
             <identifier>simpleSynchronousPayment</identifier>
             <name>Simple Synchronous payment</name>
             <name lang="de-DE">Einfache synchrone Zahlung</name>
@@ -42,18 +42,18 @@
         </payment-method>
 
         <payment-method>
-            <!-- The identifier of the payment method should not change. Otherwise a separate method is created. -->
+            <!-- The identifier of the payment method should not change. Otherwise, a separate method is created. -->
             <identifier>preparedPayment</identifier>
             <name>Payment, that offers everything</name>
             <name lang="de-DE">Eine Zahlungsart, die alles kann</name>
             <validate-url>https://payment.app/prepared/validate</validate-url>
-            <capture-url>https://payment.app/prepared/capture</capture-url>
+            <pay-url>https://payment.app/prepared/pay</pay-url>
             <!-- This optional path to this icon must be relative to the manifest.xml -->
             <icon>Resources/paymentLogo.png</icon>
         </payment-method>
 
         <payment-method>
-            <!-- The identifier of the payment method should not change. Otherwise a separate method is created. -->
+            <!-- The identifier of the payment method should not change. Otherwise, a separate method is created. -->
             <identifier>refundPayment</identifier>
             <name>Refund payments</name>
             <name lang="de-DE">Einfache Erstattungen</name>
@@ -63,7 +63,7 @@
         </payment-method>
 
         <payment-method>
-            <!-- The identifier of the payment method should not change. Otherwise a separate method is created. -->
+            <!-- The identifier of the payment method should not change. Otherwise, a separate method is created. -->
             <identifier>recurringPayment</identifier>
             <name>Recurring payments</name>
             <name lang="de-DE">Einfache wiederkehrende Zahlungen</name>
